@@ -5,16 +5,19 @@ print ('hello world')
 #	variables
 #	strings
 #		string manipulations
-#			.lower() .upper() .title() .capitalize()? 
+#			.lower() .upper() .title() .capitalize()?
 #	methods
 #	booleans
 #	if-else statemens
 #	parameters
 #	comparison operators
-#		'<'  '>'  '>='  '<='  '=='   '!=' 
-#
-#
-#
-#
-#
-#
+#		'<'  '>'  '>='  '<='  '=='   '!='
+
+#This will be a basic TRPG. Amazing adventures and exciting experiences.
+
+###VARIABLES###
+
+##BASICS##
+HP = 100
+MONEY = 0
+##BASICS##
