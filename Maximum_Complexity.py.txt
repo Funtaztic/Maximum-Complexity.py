@@ -1,3 +1,20 @@
 print ('hello world')
 
-# this should be a comment
+# This will be the most complex program I have written so far.
+# It will have:
+#	variables
+#	strings
+#		string manipulations
+#			.lower() .upper() .title() .capitalize()? 
+#	methods
+#	booleans
+#	if-else statemens
+#	parameters
+#	comparison operators
+#		'<'  '>'  '>='  '<='  '=='   '!=' 
+#
+#
+#
+#
+#
+#
