@@ -42,6 +42,8 @@ HELMET = 0
 #Story management: the basic method I used was a function which had if-else branches, which called other functions, which called other functions.
 #Death: it should be handled with a While loop at the beginning, like: 'While HP > 0:'
 
+##############################################################################
+
 #Make a wait() function with a configurable parameter, like: wait(1) or wait(2).
 #Source: https://www.pythoncentral.io/pythons-time-sleep-pause-wait-sleep-stop-your-code/
 def wait(sec):
@@ -57,6 +59,8 @@ def test_wait():
 
 #test_wait()
 
+##############################################################################
+
 #Riddles, see below:
 
 def riddle_sun():
@@ -68,3 +72,20 @@ def riddle_sun():
         print("Wrong answer.")
 
 riddle_sun()
+
+##############################################################################
+
+def basic_money_function():
+    print("What do you want to do with the money?")
+    print("1. Give")
+    print("2. Take")
+
+    answer = input().lower()
+    if '1' or 'give' in answer:
+        MONEY = MONEY - 10
+    elif '2' or 'take' in answer:
+        MONEY = MONEY + 10
+    else: 
+
+
+##############################################################################
