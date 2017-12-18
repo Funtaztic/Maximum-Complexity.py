@@ -43,7 +43,7 @@ HELMET = 0
 #Death: it should be handled with a While loop at the beginning, like: 'While HP > 0:'
 
 #Make a wait() function with a configurable parameter, like: wait(1) or wait(2).
-
+#Source: https://www.pythoncentral.io/pythons-time-sleep-pause-wait-sleep-stop-your-code/
 def wait(sec):
     time.sleep(sec)
 
