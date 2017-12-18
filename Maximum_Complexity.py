@@ -36,3 +36,20 @@ HELMET = 0
 
 
 ##############################################################################
+
+#Story management: the basic method I used was a function which had if-else branches, which called other functions, which called other functions.
+#Death: it should be handled with a While loop at the beginning, like: 'While HP > 0:'
+
+#Make a wait() function with a configurable parameter, like: wait(1) or wait(2).
+
+#Riddles, see below:
+
+def riddle_sun():
+    print("Here's a riddle for you:")
+    answer = input("A shining disk in the sky, it is shining but we don't know why.").lower()
+    if 'sun' in answer:
+        print("Well done.")
+    else:
+        print("Wrong answer.")
+
+riddle_sun()
