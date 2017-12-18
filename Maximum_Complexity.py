@@ -17,6 +17,8 @@ print ('hello world')
 
 ##############################################################################
 
+import time
+
 ###VARIABLES###
 
 ##BASICS##
@@ -41,6 +43,19 @@ HELMET = 0
 #Death: it should be handled with a While loop at the beginning, like: 'While HP > 0:'
 
 #Make a wait() function with a configurable parameter, like: wait(1) or wait(2).
+
+def wait(sec):
+    time.sleep(sec)
+
+def test_wait():
+    print('1')
+    wait(1)
+    print('2')
+    wait(2)
+    print('3')
+    wait(3)
+
+#test_wait()
 
 #Riddles, see below:
 
