@@ -76,16 +76,27 @@ riddle_sun()
 ##############################################################################
 
 def basic_money_function():
+    global MONEY
+    print("you have ", MONEY, "money")
     print("What do you want to do with the money?")
     print("1. Give")
     print("2. Take")
 
     answer = input().lower()
-    if '1' or 'give' in answer:
-        MONEY = MONEY - 10
-    elif '2' or 'take' in answer:
-        MONEY = MONEY + 10
-    else: 
+    if answer == '1':
+        MONEY -= 100
+        answer = 'none'
+        basic_money_function()
+    elif answer == '2':
+        MONEY += 100
+        answer = 'none'
+        basic_money_function()
+    else:
+        print("Okay, no transactions then.")
+        #this function call is not needed in the long run, can be deleted.
+        #it may be replaced with a return?
+        basic_money_function()
 
+basic_money_function()
 
 ##############################################################################
