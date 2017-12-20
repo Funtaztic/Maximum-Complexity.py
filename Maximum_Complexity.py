@@ -41,6 +41,7 @@ HELMET = 0
 
 #Story management: the basic method I used was a function which had if-else branches, which called other functions, which called other functions.
 #Death: it should be handled with a While loop at the beginning, like: 'While HP > 0:'
+#The story could be a Harry Potter 'fanfic' xD It has a well-built universe that I know quite well. It just needs some structure.
 
 ##############################################################################
 
@@ -71,7 +72,15 @@ def riddle_sun():
     else:
         print("Wrong answer.")
 
-riddle_sun()
+def riddle_moon():
+    print("Here's a riddle for you:")
+    answer = input("A shining disk in the night sky, it is shining but we don't know why.").lower()
+    if 'moon' in answer:
+        print("Well done.")
+    else:
+        print("Wrong answer.")
+
+
 
 ##############################################################################
 
